@@ -18,13 +18,15 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
 
-        <SlideMenu/>
-        <Map/>
 
+
+        <SlideMenu />
+        <Map />
         <SliedUp />
-       
 
-         {children}
+
+
+        {children}
       </body>
     </html>
   )
