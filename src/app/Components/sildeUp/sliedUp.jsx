@@ -2,7 +2,7 @@
 import React from 'react'
 import "@/app/Components/sildeUp/sliedUp.css"
 import Restaurant from '../restaurant/Restaurant';
-import Park from '../park/park';
+import Park from '../park/Research';
 import Others from '../others/others';
 import Hospital from '../hospital/Hospital';
 import Collage from '../collage/collage';
@@ -19,7 +19,7 @@ export default function SliedUp() {
                 <ul className='flex flex-row gap-5  left-[5px] right-center items-center justify-center mb-5 overflow-y-auto fixed bottom-0 w-full h-25'>
 
 
-                   <li className='bg-green-700 rounded-[10px] text-5xl ml-40  text-[#ffffff] p-2 mt-8 '>
+                   <li className='bg-green-700 rounded-[10px] text-5xl ml-28  text-[#ffffff] p-2 mt-8 '>
                         <BBBB></BBBB>
                     </li>
 

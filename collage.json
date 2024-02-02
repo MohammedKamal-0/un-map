@@ -1,0 +1,18 @@
+
+[ 
+  {
+    "id":1,
+    "name":"Al-Khwarizmi College of Engineering",
+    "link":"https://kecbu.uobaghdad.edu.iq/",
+         "lat": "33.27034078424435",
+          "long": "44.37385754425589",
+          "info":"https://kecbu.uobaghdad.edu.iq/?page_id=31992",
+          "department":"https://kecbu.uobaghdad.edu.iq/?page_id=35484",
+          "photo1":"images/kh1",
+          "photo2":"images/kh2",
+          "photo3":"images/kh3",
+          "photo4":"images/kh4",
+          "photo5":"images/kh5",
+          "photo6":"images/kh6"
+  }
+]
