@@ -2,8 +2,9 @@
 import React from 'react'
 import { useEffect, useState } from "react";
 import { IoIosCloseCircleOutline } from "react-icons/io";
-import { FaBuildingColumns } from "react-icons/fa6";
 import "@/app/Components/sildeUp/sliedUp.css"
+import { BiMoneyWithdraw } from "react-icons/bi";
+
 
 export default function Collage() {
 
@@ -40,13 +41,13 @@ export default function Collage() {
     <div>
 
 
-<button onClick={() => { setIsOpen(true) }}>  <FaBuildingColumns />  </button>
+<button onClick={() => { setIsOpen(true) }}>  <BiMoneyWithdraw />  </button>
 <div className={`fixed left-0 right-0 bottom-0 w-full h-[300px]  ${isOpen ? "block" : "hidden"}`}>
 
 <div className={`fixed left-0 right-0 bottom-0 w-full h-[700px]  bg-white duration-300 ${isOpen ? "h-300" : "h-0"}`} >
         <button onClick={() => { setIsOpen(false) }} className="text-black"> <IoIosCloseCircleOutline  className='text-green-700'/> </button>
 
-        <h1 className='flex items-center cursor-pointer gap-2 text-5xl text-green-700 mb-8'> <FaBuildingColumns className='ml-8 mr-4' /> collage </h1>
+        <h1 className='flex items-center cursor-pointer gap-2 text-5xl text-green-700 mb-8'> <BiMoneyWithdraw className='ml-8 mr-4' /> Bank </h1>
 
         <ul>
                <li className='py-6 border-b-4 text-3xl'>second</li>

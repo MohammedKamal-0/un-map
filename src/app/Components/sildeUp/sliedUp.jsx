@@ -3,9 +3,9 @@ import React from 'react'
 import "@/app/Components/sildeUp/sliedUp.css"
 import Restaurant from '../restaurant/Restaurant';
 import Park from '../park/Research';
-import Others from '../others/others';
+import Others from '../others/Others';
 import Hospital from '../hospital/Hospital';
-import Collage from '../collage/collage';
+import Collage from '../collage/Collage';
 import BBBB from '../bank/BBBB';
 
 
