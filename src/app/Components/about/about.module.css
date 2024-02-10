@@ -1,13 +1,35 @@
-/* google fonts link */
+ /* google fonts link 
 
-/* @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); 
 
-/* * {
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
-} */
+}
+
+span{
+  color: #0FAF89;
+
+}
+
+
+.header{
+  margin: 16px;
+  margin-bottom: 32px;
+}
+
+.container-fluid{
+  margin: 8px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 20px;
+  width: 80%;
+}
 
 .theme-text {
   color: #0FAF89;
@@ -18,8 +40,8 @@
   width: 100%;
 }
 .card {
-  /* align-items: center;
-  justify-self: center; */
+  align-items: center;
+  justify-self: center;
   margin-top: 20px;
   z-index: 1;
   overflow: hidden;
@@ -49,4 +71,4 @@
   background-size: cover;
 }
 
-
+ */
