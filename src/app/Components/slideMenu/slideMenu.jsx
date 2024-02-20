@@ -35,9 +35,9 @@ export default function SlideMenu() {
 
 
             <div
-                className={`absolute top-0 left-0 w-full h-full bg-gray-800 z-40 duration-300 opacity-50 ${isOpen ? "block" : "hidden"}`}  ></div>
+                className={`absolute top-0 left-0 w-full h-full bg-gray-800 z-40 duration-300 opacity-50  ${isOpen ? "block" : "hidden"}`}  ></div>
             <div
-                className={`fixed top-0 right-0 h-full bg-white z-50 duration-500 border-l-2 transition-margin-right ${isOpen ? "w-[300px]" : "w-0"}`} >
+                className={`fixed top-0 right-0 h-full bg-white z-50 duration-500 border-l-2 transition-margin-right overflow-x-auto ${isOpen ? "w-[300px]" : "w-0"}`} >
                 <ul className='text-green-700 text-[160%]' >
 
 

@@ -27,7 +27,7 @@ export default function NE() {
 
 
             <div className={`fixed left-0 right-0 bottom-0 w-full h-0  ${isOpen ? "block" : "hidden"}`}>
-                <div className={`fixed left-0 right-0 bottom-0 w-full h-full  bg-white duration-300 ${isOpen ? "h-full" : "h-0"}`} >
+                <div className={`fixed left-0 right-0 bottom-0 w-full h-full  bg-white duration-300 overflow-x-auto ${isOpen ? "h-full" : "h-0"}`} >
                     <button onClick={() => { setIsOpen(false) }} className="text-black">  <IoIosCloseCircleOutline className='text-green-700' />  </button>
                     <h1 className='flex items-center cursor-pointer gap-2 text-4xl text-green-700 mb-8'> <MdOutlineEventNote className='ml-8 mr-4 text-5xl' /> News & Events </h1>
 

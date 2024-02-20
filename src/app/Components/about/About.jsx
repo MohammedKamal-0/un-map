@@ -28,13 +28,13 @@ export default function About() {
 
 
             <div className={`fixed left-0 right-0 bottom-0 w-full h-0  ${isOpen ? "block" : "hidden"}`}>
-                <div className={`fixed left-0 right-0 bottom-0 w-full h-full  bg-white duration-300 ${isOpen ? "h-full" : "h-0"}`} >
+                <div className={`fixed left-0 right-0 bottom-0 w-full h-full  bg-white duration-300 overflow-x-auto ${isOpen ? "h-full" : "h-0"}`} >
                     <button onClick={() => { setIsOpen(false) }} className="text-black">  <IoIosCloseCircleOutline className='text-green-700' /> </button>
                     <h1 className='flex items-center cursor-pointer gap-2 text-4xl text-green-700 mb-8'> <GoInfo className='ml-8 mr-4 text-5xl' /> About </h1>
 
 
                     <center>
-                        <div className='m-[8px] p-[8px] mb-[20px] h-[100%] '>
+                        <div className='m-[8px] p-[8px] mb-[20px] h-[100%]  '>
                             <div className='m-[16px] mb-[32px] text-3xl'> <h1 className='text-black'>Appliacation <span className='text-green-700'>Services</span></h1></div>
 
                             <div>
@@ -43,7 +43,7 @@ export default function About() {
                                     <div>
                                         {/* <img src="images/intercative map.svg" alt=""> */}
                                         <Image
-                                            src="/app/public/images/kh1"
+                                            src="/app/public/images/intercativemap.svg"
                                             width={100}
                                             height={200}
                                             alt="Picture of the author"
@@ -60,7 +60,7 @@ export default function About() {
                                     <div>
                                         {/* <img src="images/department info.svg" alt=""> */}
                                         <Image
-                                            src="/profile.png"
+                                            src="/department-info.svg"
                                             width={100}
                                             height={200}
                                             alt="Picture of the author"
@@ -77,7 +77,7 @@ export default function About() {
                                     <div>
                                         {/* <img src="images/news & events.svg" alt="" > */}
                                         <Image
-                                            src="/profile.png"
+                                            src="/news&events.svg"
                                             width={100}
                                             height={200}
                                             alt="Picture of the author"
